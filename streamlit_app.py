@@ -3,13 +3,13 @@ import pandas as pd
 from sklearn import datasets
 from sklearn.ensemble import RandomForestClassifier
 
-st.write('Hello, world!')
-st.write("""
-# Simple Iris Flower Prediction App
-This app predicts the Iris flower type!
-""")
+# st.write('Hello, world!')
+# st.write("""
+# # Simple Iris Flower Prediction App
+# This app predicts the Iris flower type!
+# """)
 
-st.sidebar.header('User Input Parameters')
+# st.sidebar.header('User Input Parameters')
 
 # def user_input_features():
 #     sepal_length = st.sidebar.slider('Sepal Length', 4.3, 7.9, 5.4)
