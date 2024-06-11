@@ -25,24 +25,24 @@ def user_input_features():
 
 df = user_input_features()
 
-st.subheader('User Input Parameters')
-st.write(df)
+# st.subheader('User Input Parameters')
+# st.write(df)
 
-iris = datasets.load_iris()
-X = iris.data
-Y = iris.target
+# iris = datasets.load_iris()
+# X = iris.data
+# Y = iris.target
 
-clf = RandomForestClassifier()
-clf.fit(X, Y)
+# clf = RandomForestClassifier()
+# clf.fit(X, Y)
 
-prediction = clf.predict(df)
-prediction_proba = clf.predict_proba(df)
+# prediction = clf.predict(df)
+# prediction_proba = clf.predict_proba(df)
 
-st.subheader('Class Labels and their Corresponding Index Number')
-st.write(iris.target_names)
+# st.subheader('Class Labels and their Corresponding Index Number')
+# st.write(iris.target_names)
 
-st.subheader('Prediction')
-st.write(iris.target_names[prediction][0])
+# st.subheader('Prediction')
+# st.write(iris.target_names[prediction][0])
 
-st.subheader('Prediction Probability')
-st.write(prediction_proba)
+# st.subheader('Prediction Probability')
+# st.write(prediction_proba)
